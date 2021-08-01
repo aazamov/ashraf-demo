@@ -1,0 +1,206 @@
+
+
+.feature_text h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 400;
+  padding-top: 150px;
+  margin-top: 0px;
+  transition: all 0.4s ease-in-out;
+}
+
+.feature_text p {
+  text-align: center;
+  width: 700px;
+  margin: auto;
+  font-size: 20px;
+  color: gray;
+  padding-top: 10px;
+  transition: all 0.4s ease-in-out;
+}
+
+.card {
+  padding-top: 100px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr; */
+  justify-content: space-between;
+  transition: all 0.4s ease-in-out;
+  
+}
+  .cards {
+  width: 350px;
+  height: 280px;
+  background-color: #f1f1f1;
+  text-align: center;
+  margin-bottom: 100px;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 1px 1px 15px 3px rgb(202, 202, 202);
+}
+
+.cards:hover {
+  background-color: #4285f4;
+  color: white;
+
+  transform: translateY(-5px);
+  transition: all 0.4s ease-in-out;
+}
+
+.cards:hover button {
+  background-color: transparent;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.cards:hover .icon {
+  background-color: white;
+  color: #4285f4;
+  transition: all 0.4s ease-in-out;
+  
+}
+.cards:hover p{
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.cards .icon {
+  width: 80px;
+  padding: 15px;
+  color: white;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #4285f4;
+  position: relative;
+  top: -35px;
+  transition: all 0.4s ease-in-out;
+}
+
+.cards p {
+  color: gray;
+  padding: 5px 20px;
+  transition: all 0.4s ease-in-out;
+}
+
+.cards button {
+  border: 0px;
+  margin-top: 25px;
+  color: #4285f4;
+  transition: all 0.4s ease-in-out;
+  background-color: transparent;
+}
+
+.cards button:hover {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+/* ........................................ */
+.cardss {
+  width: 350px;
+  height: 280px;
+  background-color: #f1f1f1;
+  text-align: center;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out;
+  margin-bottom: 100px;
+  box-shadow: 1px 1px 15px 3px rgb(202, 202, 202);
+}
+
+.cardss:hover {
+  background-color: #4285f4;
+  color: white;
+
+  transform: translateY(-5px);
+  transition: all 0.4s ease-in-out;
+}
+
+.cardss:hover button {
+  background-color: transparent;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.cardss:hover .icon {
+  background-color: white;
+  color: #4285f4;
+  transition: all 0.4s ease-in-out;
+}
+.cardss:hover p{
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+
+.cardss .icon {
+  width: 80px;
+  padding: 15px;
+  color: white;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #4285f4;
+  position: relative;
+  top: -35px;
+  transition: all 0.4s ease-in-out;
+}
+
+.cardss p {
+  color: gray;
+  padding: 5px 20px;
+  transition: all 0.4s ease-in-out;
+}
+
+.cardss button {
+  border: 0px;
+  margin-top: 25px;
+  color: #4285f4;
+  transition: all 0.4s ease-in-out;
+
+}
+
+.cardss button:hover {
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+/* @media only screen and (max-width: 600px) {
+} */
+
+@media only screen and (max-width: 1250px){
+  .card{
+    
+
+    display: flex;
+    width: 768px;
+    flex-wrap: wrap;
+    margin: auto;
+
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .card{
+    flex-wrap: wrap;
+    width: 350px;
+  }
+  .feature_text h1{
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+  }
+  .feature_text p{
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 478px){
+  .card{
+    width: 300px;
+  }
+  .feature_text h1{
+    width: 350px;
+  }
+  .feature_text p{
+    width: 350px;
+  }
+}

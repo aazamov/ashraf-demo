@@ -1,0 +1,206 @@
+.team h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 60px;
+}
+
+.txt {
+  text-align: center;
+  width: 550px;
+  margin: auto;
+  color: gray;
+}
+.cards {
+  width: 1200px;
+ margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 70px;
+  
+}
+
+.icon_ins:hover{
+  cursor: pointer;
+}
+
+
+
+.img {
+  background-image: url('../../public/img/team1.webp');
+  width: 350px;
+  height: 380px;
+  position: relative;
+  background-size: 100% 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.img:hover .blue {
+  opacity: 1;
+
+  transform: translateY(-50px);
+  transition: all 0.5s ease-in-out;
+}
+
+.blue {
+  width: 350px;
+  height: 50px;
+  background-color: #4285f4;
+  position: absolute;
+  top: 380px;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  padding-top: 12px;
+}
+
+/* /////////////////////////////////////////////// */
+
+.img2 {
+  background-image: url('https://preview.colorlib.com/theme/imagine/images/xperson_2.jpg.pagespeed.ic.tEQmGoVJYm.webp');
+  width: 350px;
+  height: 380px;
+  position: relative;
+  background-size: 100% 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.img2:hover .blue2 {
+  opacity: 1;
+
+  transform: translateY(-50px);
+  transition: all 0.5s ease-in-out;
+}
+.blue2 {
+  width: 350px;
+  height: 50px;
+  background-color: #4285f4;
+  position: absolute;
+  top: 380px;
+  color: white;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  padding-top: 12px;
+}
+
+/* ///////////////////////////////// */
+
+.img3 {
+  background-image: url('https://preview.colorlib.com/theme/imagine/images/xperson_3.jpg.pagespeed.ic.RShAAJX8ye.webp');
+  width: 350px;
+  height: 380px;
+  position: relative;
+  background-size: 100% 100%;
+  transition: all 0.5s ease-in-out;
+}
+
+.img3:hover .blue3 {
+  opacity: 1;
+
+  transform: translateY(-50px);
+  transition: all 0.5s ease-in-out;
+}
+.blue3 {
+  width: 350px;
+  height: 50px;
+  background-color: #4285f4;
+  position: absolute;
+  top: 380px;
+
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  color: white;
+  text-align: center;
+  padding-top: 12px;
+}
+
+.card {
+  width: 350px;
+}
+
+.image {
+  width: 350px;
+  height: 45px;
+  z-index: 10;
+  position: absolute;
+  background-color: white;
+}
+
+.card h3 {
+  margin-top: 45px;
+  font-weight: 400;
+}
+.card h4 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #4285f4;
+  padding-top: 0px;
+}
+.card p {
+  color: gray;
+  line-height: 25px;
+}
+.blue3 .icon {
+  margin: 0px 20px;
+}
+.blue2 .icon {
+  margin: 0px 20px;
+}
+
+.blue .icon {
+  margin: 0px 20px;
+}
+
+.icon:hover{
+
+  cursor: pointer;
+}
+.icons_face{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px){
+  .cards{
+    width: 1024px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+  }
+  
+  .card_3{
+   
+    width: 350px ;
+    position: relative;
+  left: 350px;
+  
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .cards{
+    width: 350px;
+    margin: 0px;
+   
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+ .card_3{
+   left: 0px;
+width: 350px;
+  }
+  .txt{
+    width: 350px;
+    padding-bottom: 50px;
+  
+  }
+}
+
+
