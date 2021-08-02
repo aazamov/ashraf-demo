@@ -16,10 +16,10 @@ function About() {
       <div className={classes.about_us}>
         <h1>About Us</h1>
         <div className={classes.about}>
-          <div data-aos="fade-up-right" className={classes.img}>
+          <div data-aos="fade-up" className={classes.img}>
             <Image src={img} alt='image' width='500' />
           </div>
-          <div data-aos="fade-up-left"  className={classes['texts']}>
+          <div data-aos="fade-up"  className={classes['texts']}>
             <h3>Our Mission</h3>
             <p>
               Eos cumque optio dolores excepturi rerum temporibus magni

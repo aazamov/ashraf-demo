@@ -14,9 +14,9 @@ function Home() {
       <Header />
       <Feature />
        <About />
-      <Team />
+        <Team />
       <Testi />
-    <Footer />  
+     <Footer />  
     </Fragment>
   );
 }
